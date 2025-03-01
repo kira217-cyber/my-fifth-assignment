@@ -37,7 +37,7 @@
             <ul class="menu menu-horizontal px-1 gap-6">
               <button class="btn bg-[#F4F7FF] rounded-3xl">
                 <img src="assets/checkbox.png" alt="" />
-                <span class="font-bold text-2xl">23</span>
+                <span id="added-number" class="font-bold text-2xl">23</span>
               </button>
               <button id="btn-theam" class="btn btn-circle p-2 bg-[#F4F7FF]">
                 <img src="assets/theme-btn.png" alt="" />
@@ -59,7 +59,7 @@
               </div>
               <div>
                 <h6>Task Assigned </h6>
-                <h2 class="text-3xl font-extrabold">05</h2>
+                <h2 class="text-3xl font-extrabold">0<span id="assigned-number">6</span></h2>
               </div>
             </div>
             <div id="btn-other-page"
@@ -81,9 +81,7 @@
                 <img src="assets/calender.png" alt="" />
               </div>
               <div>
-                <h2 class="text-xl">
-                  Wed , <span class="font-bold"> Jul 28 2025 </span>
-                </h2>
+                <p id="present-date"></p>
               </div>
             </div>
           </div>
@@ -101,7 +99,7 @@
                         <h4 class="font-bold">21 March 2025</h4>
                       </div>
                       <div class="card-actions justify-end">
-                        <button class="btn text-white bg-[#3752FD]">Completed</button>
+                        <button id="myButton" class="btn text-white bg-[#3752FD]">Completed</button>
                       </div>
                   </div>
                 </div>
@@ -118,7 +116,7 @@
                         <h4 class="font-bold">21 March 2025</h4>
                       </div>
                       <div class="card-actions justify-end">
-                        <button class="btn text-white bg-[#3752FD]">Completed</button>
+                        <button id="my-button-2" class="btn text-white bg-[#3752FD]">Completed</button>
                       </div>
                   </div>
                 </div>
@@ -209,5 +207,8 @@
     </section>
     <script src="./script/toggle.js"></script>
     <script src="./script/theam-change.js"></script>
+    <script src="./script/date.js"></script>
+    <script src="script/submitted.js"></script>
+    <script src="script/submitted2.js"></script>
   </body>
 </html>
